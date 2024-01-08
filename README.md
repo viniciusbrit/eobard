@@ -15,4 +15,4 @@ The single PCB is is dual sided, only having to be flipped around for assembly o
 * Less than 10$ manufacture price on JLCPCB.
 
 ## Board Images
-<img src="https://imgur.com/o5MUvmY.jpeg" width="230"/>
+<img src="https://imgur.com/azP9VoR.jpeg" width="460"/>
