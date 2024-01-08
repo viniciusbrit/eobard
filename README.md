@@ -1,5 +1,6 @@
 # Eobard Split 30% Keyboard
 Current Hardware Revision: 2.3
+
 **Firmware not yet written.**
 
 ## Project Description
@@ -11,9 +12,15 @@ The single PCB is is dual sided, only having to be flipped around for assembly o
 ## Project Requirements
 * Based on standard size Raspberry Pi Pico [RP2040 Chip].
 * Dual Sided PCB.
-* THT everything. 
+* THT everything.
 * OLED display on both sides.
 * Less than 10$ manufacture price on JLCPCB.
+
+## Project Progress
+- [x] Design Layout. 
+- [x] Design PCB.
+- [x] Design Plate.
+- [ ] Write Firmware.
 
 ## Board Images
 <img src="https://imgur.com/azP9VoR.jpeg" width="460"/>
