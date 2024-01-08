@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "Eobard Split Keyboard")
-    (date "2023-12-10")
-    (rev "2.2")
+    (date "2024-01-08")
+    (rev "2.3")
     (company "by viniciusbrit")
   )
 
@@ -3006,7 +3006,7 @@
 
   (footprint "Eobard-SVG-Files:ADHD-Creature" (layer "F.Cu")
     (tstamp c947a724-27ae-45f4-a562-215bdc58d9e4)
-    (at 143.8656 109.728)
+    (at 147 110)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 -8.128) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -6237,7 +6237,7 @@
 
   (footprint "Eobard-SVG-Files:ADHD-Creature" (layer "B.Cu")
     (tstamp 77f1d997-a2fe-4a07-93c7-6882abab1456)
-    (at 143.8656 109.728 180)
+    (at 147 110 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 8.128) (layer "B.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
