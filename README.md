@@ -1,5 +1,6 @@
 # Eobard Split 30% Keyboard
-Current Revision: 2.3
+Current Hardware Revision: 2.3
+**Firmware not yet written.**
 
 ## Project Description
 Eobard is an ortholinear 38 key split keyboard made for my personal needs. 
