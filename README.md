@@ -18,11 +18,12 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 ## Project Progress
 - [x] Design Layout. 
 - [x] Design PCB.
-- [ ] Design Plate.
+- [x] Design Plate.
 - [ ] Write Firmware.
 
 ## Board Images
-<img src="https://imgur.com/azP9VoR.jpeg" width="460"/>
+<img src="https://imgur.com/DBaC0DV.jpeg" width="460"/>
+<img src="https://imgur.com/IOgoetL.jpeg" width="460"/>
 
 ## Parts List
 * Raspberry Pi Pico [x2]
