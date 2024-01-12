@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Imports/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-320A_Library")(type "Legacy")(uri "${KIPRJMOD}/Imports/PJ-320A_KiCad_Library/PJ-320A_Library.lib")(options "")(descr ""))
+)
