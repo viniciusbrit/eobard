@@ -1,5 +1,5 @@
 # Meet Eobard, a split 34 key ortholinear keyboard.
-Current Hardware Revision: 2.4
+Current Hardware Revision: 0.2.8 
 
 **Firmware not yet written.**
 
@@ -18,7 +18,7 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 ## Project Progress
 - [x] Design Layout. 
 - [x] Design PCB.
-- [x] Design Plate.
+- [ ] Design Plate.
 - [ ] Write Firmware.
 
 ## Board Images
