@@ -1,5 +1,5 @@
-# Eobard Split 30% Keyboard
-Current Hardware Revision: 2.3
+# Meet Eobard, a split 34 key ortholinear keyboard.
+Current Hardware Revision: 2.4
 
 **Firmware not yet written.**
 
