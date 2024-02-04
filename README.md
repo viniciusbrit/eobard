@@ -17,9 +17,9 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 
 ## Project Progress
 - [x] Design Layout. 
-- [x] Design PCB.
-- [x] Design Plate.
-- [x] Write Firmware.
+- [x] Design PCB & Plate.
+- [x] Build Prototype.
+- [ ] Write Full Firmware.
 
 ## Images
 <img src="https://github.com/viniciusbrit/eobard/blob/54abefa3f9322f3dde9a3adc79b1acc81ec4291c/Images/Front%20and%20Back.jpg" width="75%">
