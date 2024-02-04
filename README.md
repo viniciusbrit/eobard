@@ -1,8 +1,6 @@
 # Meet Eobard, a split 34 key ortholinear keyboard.
 Current Hardware Revision: 0.2.8 
 
-**Firmware not yet written.**
-
 ## Project Description
 Eobard is an ortholinear 34 key split keyboard made for my personal needs. Inspired by the [Ferris](https://github.com/pierrechevalier83/ferris).
 
@@ -19,11 +17,14 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 - [x] Design Layout. 
 - [x] Design PCB.
 - [x] Design Plate.
-- [ ] Write Firmware.
+- [x] Write Firmware.
 
-## Board Images
-<img src="https://imgur.com/DBaC0DV.jpeg" width="460"/>
-<img src="https://imgur.com/IOgoetL.jpeg" width="460"/>
+## Images
+![Keyboard Image](https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg?raw=true)
+![Prototype Front and Back](https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg?raw=true)
+![PCB Image](https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_front.jpg?raw=true)
+![PCB Image](https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_back.jpg?raw=true)
+![Plate Image](https://github.com/viniciusbrit/eobard/tree/mains/Plate-Images/eobard-plate_front.jpg?raw=true)
 
 ## Parts List
 * Raspberry Pi Pico [x2]
@@ -31,3 +32,5 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 * [SSD1306 0.91" I2C OLED Display Module [x2]](https://pt.aliexpress.com/item/32672229793.html)
 * [1N4148 THT Diodes [x34]](https://www.lcsc.com/product-detail/Switching-Diode_LGE-1N4148_C402212.html)
 * Cherry MX Style Switches [x34]
+* 4mm M2 Standoff [x9]
+* 3mm M2 Screw [x18]
