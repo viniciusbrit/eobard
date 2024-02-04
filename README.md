@@ -20,11 +20,11 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 - [x] Write Firmware.
 
 ## Images
-<img src="https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg" width="50%">
-<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg" width="50%">
-<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_front.jpg?" width="50%">
-<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_back.jpg" width="50%">
-<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Plate-Images/eobard-plate_front.jpg" width="50%">
+<img src="https://github.com/viniciusbrit/eobard/blob/54abefa3f9322f3dde9a3adc79b1acc81ec4291c/Images/Keyboard.jpg" width="50%">
+<img src="https://github.com/viniciusbrit/eobard/blob/54abefa3f9322f3dde9a3adc79b1acc81ec4291c/Images/Front%20and%20Back.jpg" width="50%">
+<img src="https://github.com/viniciusbrit/eobard/blob/54abefa3f9322f3dde9a3adc79b1acc81ec4291c/Images/Board-Images/eobard_front.jpg" width="50%">
+<img src="https://github.com/viniciusbrit/eobard/blob/54abefa3f9322f3dde9a3adc79b1acc81ec4291c/Images/Board-Images/eobard_back.jpg" width="50%">
+<img src="https://github.com/viniciusbrit/eobard/blob/54abefa3f9322f3dde9a3adc79b1acc81ec4291c/Images/Plate-Images/eobard-plate_front.jpg" width="50%">
 
 ## Parts List
 * Raspberry Pi Pico [x2]
