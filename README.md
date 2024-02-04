@@ -20,11 +20,11 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 - [x] Write Firmware.
 
 ## Images
-![Keyboard Image](https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg?raw=true)
-![Prototype Front and Back](https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg?raw=true)
-![PCB Image](https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_front.jpg?raw=true)
-![PCB Image](https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_back.jpg?raw=true)
-![Plate Image](https://github.com/viniciusbrit/eobard/tree/mains/Plate-Images/eobard-plate_front.jpg?raw=true)
+<img src="https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg" width="50%">
+<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Keyboard.jpg" width="50%">
+<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_front.jpg?" width="50%">
+<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Board-Images/eobard_back.jpg" width="50%">
+<img src="(https://github.com/viniciusbrit/eobard/tree/mains/Plate-Images/eobard-plate_front.jpg" width="50%">
 
 ## Parts List
 * Raspberry Pi Pico [x2]
