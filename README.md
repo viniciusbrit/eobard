@@ -13,7 +13,6 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 * Single PCB for both sides.
 * THT everything.
 * OLED display on both sides.
-* Less than 10$ manufacture price on JLCPCB.
 
 ## Project Progress
 - [x] Design Layout. 
