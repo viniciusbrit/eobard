@@ -48,11 +48,11 @@ keyboard.keymap = [
         KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,
         KC.A,    S_L2,    D_L1,    F_L4,    KC.G,    KC.H,    J_L3,    K_L2,    L_L5, KC.SCLN,
         KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M, KC.COMM,  KC.DOT, KC.SLSH,
-     KC.LGUI,  SPC_L6, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC.ENT, KC.BSPC,
+     KC.LSFT,  SPC_L6, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC.ENT, KC.BSPC,
     ],
     [  # 1 NAVIGATION LAYER
     _______, _______, _______, _______, _______, _______, _______, KC.PGUP, _______, _______,
-    _______, KC.LGUI,  KC.MEH, KC.HYPR, _______, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT,
+    _______, KC.LGUI, _______, KC.HYPR, _______, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT,
     _______, _______, _______, _______, _______, _______, KC.HOME, KC.PGDN,  KC.END, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
