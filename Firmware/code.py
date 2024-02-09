@@ -14,6 +14,7 @@ from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 from kmk.modules.split import Split, SplitType
 from kmk.modules.layers import Layers
+#from kmk.extensions.peg_oled_Display import Oled, OledDisplayMode, OledReactionType, OledData
 
 keyboard = KMKKeyboard()
 keyboard.debug_enabled = True
@@ -29,6 +30,19 @@ keyboard.col_pins = (board.GP10,board.GP11,board.GP12,board.GP13,board.GP14)
 keyboard.row_pins = (board.GP2,board.GP3,board.GP4,board.GP5)
 keyboard.diode_orientation = DiodeOrientation.ROW2COL
 
+### OLED Stuff [WIP]
+#SDA = board.GP6
+#SCL = board.GP7
+#oled_ext = Oled(
+#        OledData(
+#            corner_one = {0:OledReactionType.STATIC,1:["LAYER:"]},
+#            corner_two = {0:OledReactionType.LAYER,1:["0", "1", "2", "3", "4", "5"]},
+#            corner_three={0:OledReactionType.LAYER,1:["base","nav","numpad","symL","symR","quick"]},
+#            corner_four={0:OledReactionType.LAYER,1:["bop","bap","beep","boop","bub","byob"]}
+#            ),
+#        toDisplay = OledDisplayMode.TXT, flip=False)
+#keyboard.extensions.append(oled_ext)
+
 ### Cleanup naming scheme
 _______ = KC.TRNS
 XXXXXXX = KC.NO
@@ -38,15 +52,14 @@ S_L2 = KC.LT(2, KC.S)
 D_L1 = KC.LT(1, KC.D)
 F_L4 = KC.LT(4, KC.F)
 J_L3 = KC.LT(3, KC.J)
-K_L2 = KC.LT(2, KC.K)
-L_L5 = KC.LT(5, KC.L)
+K_L5 = KC.LT(5, KC.K)
 SPC_L6 = KC.LT(6, KC.SPC)
 
 ### Keymap
 keyboard.keymap = [
     [  # 0 QWERTY LAYER
         KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,
-        KC.A,    S_L2,    D_L1,    F_L4,    KC.G,    KC.H,    J_L3,    K_L2,    L_L5, KC.SCLN,
+        KC.A,    S_L2,    D_L1,    F_L4,    KC.G,    KC.H,    J_L3,    K_L5,    KC.L, KC.SCLN,
         KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M, KC.COMM,  KC.DOT, KC.SLSH,
      KC.LSFT,  SPC_L6, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC.ENT, KC.BSPC,
     ],
@@ -82,9 +95,9 @@ keyboard.keymap = [
     ],
     [  # 6 ALWAYS AVAILABLE [THUMB QUICK ACCESS LAYER]
     _______, _______, KC.COLN,  KC.ESC, _______, _______, _______, _______, _______,  KC.DEL,
-    _______, KC.PERC, KC.SLSH,  KC.ENT, _______, _______, KC.LGUI, _______, _______, _______,
+     KC.TAB, KC.PERC, KC.SLSH,  KC.ENT, _______, _______, KC.LGUI, _______, _______, _______,
     _______, _______, _______, KC.PERC, _______, _______, KC.RALT, KC.RCTL, _______, KC.RESET,
-     KC.TAB, _______, _______, _______, _______, _______, _______, _______, _______, _______,
+    _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
 ]
 
