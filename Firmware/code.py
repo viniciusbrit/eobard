@@ -14,7 +14,7 @@ from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 from kmk.modules.split import Split, SplitType
 from kmk.modules.layers import Layers
-#from kmk.extensions.peg_oled_Display import Oled, OledDisplayMode, OledReactionType, OledData
+from kmk.extensions.peg_oled_Display import Oled, OledData, OledDisplayMode, OledReactionType
 
 keyboard = KMKKeyboard()
 keyboard.debug_enabled = True
@@ -33,15 +33,29 @@ keyboard.diode_orientation = DiodeOrientation.ROW2COL
 ### OLED Stuff [WIP]
 #SDA = board.GP6
 #SCL = board.GP7
-#oled_ext = Oled(
-#        OledData(
-#            corner_one = {0:OledReactionType.STATIC,1:["LAYER:"]},
-#            corner_two = {0:OledReactionType.LAYER,1:["0", "1", "2", "3", "4", "5"]},
-#            corner_three={0:OledReactionType.LAYER,1:["base","nav","numpad","symL","symR","quick"]},
-#            corner_four={0:OledReactionType.LAYER,1:["bop","bap","beep","boop","bub","byob"]}
+#oled = Oled(
+#    OledData(
+#            corner_one = {
+#                0:OledReactionType.STATIC,
+#                1:["LAYER:"]
+#                },
+#            corner_two = {
+#                0:OledReactionType.LAYER,
+#                1:["0", "1", "2", "3", "4", "5"]
+#                },
+#            corner_three={
+#                0:OledReactionType.LAYER,
+#                1:["base","nav","numpad","symL","symR","quick"]
+#                },
+#            corner_four={
+#                0:OledReactionType.LAYER,
+#                1:["bop","bap","beep","boop","bub","byob"]
+#                }
 #            ),
-#        toDisplay = OledDisplayMode.TXT, flip=False)
-#keyboard.extensions.append(oled_ext)
+#    toDisplay = OledDisplayMode.TXT,
+#    flip = False, 
+#)
+#keyboard.extensions.append(oled)
 
 ### Cleanup naming scheme
 _______ = KC.TRNS
