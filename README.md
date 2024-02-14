@@ -29,8 +29,9 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 ## Parts List
 * Raspberry Pi Pico [x2]
 * [PJ-320A 3.5mm Audio Jack [x2]](https://www.lcsc.com/product-detail/Audio-Connectors_Hong-Cheng-HC-PJ-320A_C7501806.html)
-* [SSD1306 0.91" I2C OLED Display Module [x2]](https://pt.aliexpress.com/item/32672229793.html)
+* [SSD1306 0.91" I2C OLED Display Module [x2]](https://pt.aliexpress.com/item/32672229793.html) [Optional] [Functionality Not Yet Implemented]
 * [1N4148 THT Diodes [x34]](https://www.lcsc.com/product-detail/Switching-Diode_LGE-1N4148_C402212.html)
 * Cherry MX Style Switches [x34]
 * 4mm M2 Standoff [x9]
 * 3mm M2 Screw [x18]
+* 01x04 2.54mm Female Pin Headers [x2] [For OLED Displays]
