@@ -3,3 +3,4 @@ The keyboard uses KMK firmware as a base. Follow their (Getting Started Guide)[h
 
 ## To Do:
 * Setup I2C OLED Screen behaviour.
+> I'm not sure using OLED screens on a split keyboard is even possible using kmk with peg_oled, as it stands I will not add this functionality
