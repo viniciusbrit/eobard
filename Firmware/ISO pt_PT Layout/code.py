@@ -5,6 +5,7 @@
 # ███████  ██████  ██████  ██   ██ ██   ██ ██████      ██       ███ ███  
 #                         
 ## Written by viniciusbrit, 2024
+## pt_PT Layout
 
 print("Starting")
 import board
@@ -14,7 +15,6 @@ from kmk.keys import KC
 from kmk.scanners import DiodeOrientation
 from kmk.modules.split import Split, SplitType
 from kmk.modules.layers import Layers
-from kmk.extensions.peg_oled_Display import Oled, OledData, OledDisplayMode, OledReactionType
 
 keyboard = KMKKeyboard()
 keyboard.debug_enabled = True
@@ -30,33 +30,6 @@ keyboard.col_pins = (board.GP10,board.GP11,board.GP12,board.GP13,board.GP14)
 keyboard.row_pins = (board.GP2,board.GP3,board.GP4,board.GP5)
 keyboard.diode_orientation = DiodeOrientation.ROW2COL
 
-### OLED Stuff [WIP]
-#SDA = board.GP6
-#SCL = board.GP7
-#oled = Oled(
-#    OledData(
-#            corner_one = {
-#                0:OledReactionType.STATIC,
-#                1:["LAYER:"]
-#                },
-#            corner_two = {
-#                0:OledReactionType.LAYER,
-#                1:["0", "1", "2", "3", "4", "5"]
-#                },
-#            corner_three={
-#                0:OledReactionType.LAYER,
-#                1:["base","nav","numpad","symL","symR","quick"]
-#                },
-#            corner_four={
-#                0:OledReactionType.LAYER,
-#                1:["bop","bap","beep","boop","bub","byob"]
-#                }
-#            ),
-#    toDisplay = OledDisplayMode.TXT,
-#    flip = False, 
-#)
-#keyboard.extensions.append(oled)
-
 ### Cleanup naming scheme
 _______ = KC.TRNS
 XXXXXXX = KC.NO
@@ -69,18 +42,47 @@ J_L3 = KC.LT(3, KC.J)
 K_L5 = KC.LT(5, KC.K)
 SPC_L6 = KC.LT(6, KC.SPC)
 
+### ISO Keys
+AT = KC.RALT(KC.Q)
+TILDE = KC.BSLS
+CIRCNF = KC.LSFT(KC.BSLS)
+QUOTE = KC.EQL
+DQUOTE = KC.LSFT(KC.N2)
+COLON = KC.LSFT(KC.DOT)
+SCOLON = KC.LSFT(KC.COMM)
+UNDRSC = KC.LSFT(KC.SLSH)
+AMPERS = KC.LSFT(KC.N6)
+PIPE = KC.TILD
+EQUAL = KC.LSFT(KC.N0)
+PLUS = KC.LBRC
+MINUS = KC.SLSH
+ASTRSK = KC.LSFT(KC.LBRC)
+SLASH = KC.LSFT(KC.N7)
+BSLASH = KC.GRV
+LANBRK = KC.NUBS
+RANBRK = KC.LSFT(KC.NUBS)
+LPAREN = KC.LSFT(KC.N8)
+RPAREN = KC.LSFT(KC.N9)
+LBRAKT = KC.RALT(KC.N8)
+RBRAKT = KC.RALT(KC.N9)
+LCURLY = KC.RALT(KC.N7)
+RCURLY = KC.RALT(KC.N0)
+
+AGUDO = KC.RBRC
+CRASE = KC.LSFT(KC.RBRC)
+
 ### Keymap
 keyboard.keymap = [
     [  # 0 QWERTY LAYER
         KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,
         KC.A,    S_L2,    D_L1,    F_L4,    KC.G,    KC.H,    J_L3,    K_L5,    KC.L, KC.SCLN,
         KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M, KC.COMM,  KC.DOT, KC.SLSH,
-     KC.LSFT,  SPC_L6, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC.ENT, KC.BSPC,
+      SPC_L6, KC.LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC.ENT, KC.BSPC,
     ],
     [  # 1 NAVIGATION LAYER
-    _______, _______, _______, _______, _______, _______, _______, KC.PGUP, _______, _______,
-    _______, KC.LGUI, _______, KC.HYPR, _______, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT,
-    _______, _______, _______, _______, _______, _______, KC.HOME, KC.PGDN,  KC.END, _______,
+    _______, _______, _______, _______, _______, _______, KC.PGUP, _______, _______, _______,
+    _______, KC.LGUI, _______, KC.HYPR, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT, _______,
+    _______, _______, _______, _______, _______, KC.HOME, KC.PGDN,  KC.END, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
     [  # 2 NUMPAD
@@ -90,15 +92,15 @@ keyboard.keymap = [
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
     [  # 3 LEFT SYMBOLS
-    _______, KC.COLN, KC.LABK, KC.RABK, KC.SCLN, _______, _______, _______, _______, _______,
-    KC.LCBR, KC.RCBR, KC.LPRN, KC.RPRN,   KC.AT, _______, _______,  KC.EQL, KC.PLUS, KC.PERC,
-    _______, KC.EXLM, KC.LBRC, KC.RBRC, _______, _______, _______, _______, _______, _______,
+    _______,   COLON,  LANBRK,  RANBRK,  SCOLON, _______, _______, _______, _______, _______,
+     LCURLY,  RCURLY,  LPAREN,  RPAREN,      AT, _______, _______,   EQUAL,    PLUS, KC.PERC,
+    _______, KC.EXLM,  LBRAKT,  RBRAKT, _______, _______, _______, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
     [  # 4 RIGHT SYMBOLS
-    _______, _______, _______, _______, _______, _______, KC.UNDS, KC.PIPE, KC.QUOT, _______,
-    KC.CIRC, KC.ASTR, KC.AMPR, _______, _______, KC.HASH, KC.TILD, KC.SLSH, KC.DQUO,  KC.DLR,
-    _______, _______, _______, _______, _______, _______, KC.MINS, KC.BSLS,  KC.GRV, _______,
+    _______, _______, _______, _______, _______, _______,  UNDRSC,    PIPE,   QUOTE, _______,
+     CIRCNF,  ASTRSK,  AMPERS, _______, _______, KC.HASH,   TILDE,   SLASH,  DQUOTE,  KC.DLR,
+    _______, _______, _______, _______, _______, _______,   MINUS,  BSLASH,   AGUDO, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
     [  # 5 FUNCTION KEYS
@@ -108,9 +110,9 @@ keyboard.keymap = [
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
     [  # 6 ALWAYS AVAILABLE [THUMB QUICK ACCESS LAYER]
-    _______, _______, KC.COLN,  KC.ESC, _______, _______, _______, _______, _______,  KC.DEL,
-     KC.TAB, KC.PERC, KC.SLSH,  KC.ENT, _______, _______, KC.LGUI, _______, _______, _______,
-    _______, _______, _______, KC.PERC, _______, _______, KC.RALT, KC.RCTL, _______, KC.RESET,
+    _______, _______,   COLON,  KC.ESC, _______, _______,   AGUDO,   CRASE, _______,  KC.DEL,
+     KC.TAB, KC.PERC,   SLASH,  KC.ENT, _______, _______, KC.LGUI, _______, _______,   TILDE,
+    _______, _______, _______, _______, _______, _______, KC.RALT, KC.RCTL, _______, KC.RESET,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
 ]
