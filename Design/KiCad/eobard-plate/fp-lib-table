@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad-SSD1306-0.91-OLED-4pin-128x32")(type "KiCad")(uri "${KIPRJMOD}/Imports/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty")(options "")(descr ""))
+  (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/Imports/keyswitches.pretty")(options "")(descr ""))
+  (lib (name "PJ-320A_Library")(type "KiCad")(uri "${KIPRJMOD}/Imports/PJ-320A_KiCad_Library/PJ-320A_Library.pretty")(options "")(descr ""))
+  (lib (name "Eobard-SVG-Files")(type "KiCad")(uri "${KIPRJMOD}/Imports/Eobard-SVG-Files")(options "")(descr ""))
+  (lib (name "Cherry-MX-Plate-Hole")(type "KiCad")(uri "${KIPRJMOD}/Imports/Cherry-MX-Plate-Hole.pretty")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/Imports/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+)
