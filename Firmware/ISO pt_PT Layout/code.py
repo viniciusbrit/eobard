@@ -53,6 +53,7 @@ SCOLON = KC.LSFT(KC.COMM)
 UNDRSC = KC.LSFT(KC.SLSH)
 AMPERS = KC.LSFT(KC.N6)
 PIPE = KC.TILD
+EURO = KC.RALT(KC.E)
 EQUAL = KC.LSFT(KC.N0)
 PLUS = KC.LBRC
 MINUS = KC.SLSH
@@ -81,7 +82,7 @@ keyboard.keymap = [
     ],
     [  # 1 NAVIGATION LAYER
     _______, _______, _______, _______, _______, _______, KC.PGUP, _______, _______, _______,
-    _______, KC.LGUI, _______, KC.HYPR, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT, _______,
+    KC.PSCR, KC.LGUI, _______, KC.HYPR, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT, _______,
     _______, _______, _______, _______, _______, KC.HOME, KC.PGDN,  KC.END, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
@@ -100,7 +101,7 @@ keyboard.keymap = [
     [  # 4 RIGHT SYMBOLS
     _______, _______, _______, _______, _______, _______,  UNDRSC,    PIPE,   QUOTE, _______,
      CIRCNF,  ASTRSK,  AMPERS, _______, _______, KC.HASH,   TILDE,   SLASH,  DQUOTE,  KC.DLR,
-    _______, _______, _______, _______, _______, _______,   MINUS,  BSLASH,   AGUDO, _______,
+    _______, _______, _______, _______, _______, _______,   MINUS,  BSLASH,    EURO, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
     [  # 5 FUNCTION KEYS
