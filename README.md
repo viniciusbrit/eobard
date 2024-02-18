@@ -6,7 +6,7 @@ Current Hardware Revision: 0.2.8
 ## Project Description
 Eobard is an ortholinear 34 key split keyboard made for my personal needs. Inspired by the [Ferris](https://github.com/pierrechevalier83/ferris).
 
-The columns are spaced out vertically so as to provide the most comfortable typing experience for my hand size. It is designed to be cheap to manufacture and simple to assemble. The single PCB is is dual sided, only having to be flipped around for assembly of the other side.
+The columns are spaced out vertically so as to provide the most comfortable typing experience for my hand size. It is designed to be cheap to manufacture and simple to assemble. The single PCB is dual sided, only having to be flipped around for assembly of the other side.
 
 <details>
 <summary>Hardware Tasks</summary>
@@ -48,7 +48,7 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 * 4mm M2 Standoff [x9]
 * 3mm M2 Screw [x18]
 * 01x04 2.54mm Female Pin Headers [x2] [For OLED Displays]
-* 01x20 2.54 Standard Male Pin Headers [x4] [If Pico doesn't have them pre-soldered]
+* 01x20 2.54mm Standard Male Pin Headers [x4] [If Pico doesn't have them pre-soldered]
 
 ## Ordering PCBs
 Dragging and dropping the provided Gerber zips onto JLCPCB or other manufacturer's websites should work just fine. Make sure the plate PCB is 1mm thick and the main pcb is 1.6mm thick.
