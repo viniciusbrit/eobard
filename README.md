@@ -10,7 +10,6 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 
 <details>
 <summary>Hardware Tasks</summary>
-## List of Eobard Hardware Design Tasks
 
 - [x] Design Layout. 
 - [x] Design PCB & Plate.
