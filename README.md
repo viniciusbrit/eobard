@@ -11,6 +11,7 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 <details>
 <summary>Hardware Tasks</summary>
 ## List of Eobard Hardware Design Tasks
+
 - [x] Design Layout. 
 - [x] Design PCB & Plate.
 - [x] Generate Gerbers.
@@ -26,6 +27,7 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 
 <details>
 <summary>Software Tasks</summary>
+
 - [x] Write US English Layout.
 - [x] Write EU Portuguese Layout.
 - [ ] Get OLED displays working.
