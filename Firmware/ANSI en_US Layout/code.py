@@ -52,7 +52,7 @@ keyboard.keymap = [
     ],
     [  # 1 NAVIGATION LAYER
     _______, _______, _______, _______, _______, _______, _______, KC.PGUP, _______, _______,
-    KC.PSCR, KC.LGUI, _______, KC.HYPR, _______, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT,
+    KC.PSCR, KC.LGUI, _______, KC.HYPR, _______, KC.LEFT, KC.DOWN,   KC.UP, KC.RGHT, _______,
     _______, _______, _______, _______, _______, _______, KC.HOME, KC.PGDN,  KC.END, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
@@ -83,7 +83,7 @@ keyboard.keymap = [
     [  # 6 ALWAYS AVAILABLE [THUMB QUICK ACCESS LAYER]
     _______, _______, KC.COLN,  KC.ESC, _______, _______, _______, _______, _______,  KC.DEL,
      KC.TAB, KC.PERC, KC.SLSH,  KC.ENT, _______, _______, KC.LGUI, _______, _______, _______,
-    _______, _______, _______, KC.PERC, _______, _______, KC.RALT, KC.RCTL, _______, KC.RESET,
+    KC.CAPS, _______, _______, KC.PERC, _______, _______, KC.RALT, KC.RCTL, _______, KC.RESET,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
 ]

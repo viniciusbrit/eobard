@@ -17,7 +17,7 @@ from kmk.modules.split import Split, SplitType
 from kmk.modules.layers import Layers
 
 keyboard = KMKKeyboard()
-keyboard.debug_enabled = True
+#keyboard.debug_enabled = True
 
 ### Keyboard Modules
 split = Split(split_type=SplitType.UART, split_side=None, data_pin=board.GP9, data_pin2=board.GP8, uart_flip=True, use_pio=True)
@@ -81,14 +81,14 @@ keyboard.keymap = [
       SPC_L6, KC.LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,  KC.ENT, KC.BSPC,
     ],
     [  # 1 NAVIGATION LAYER
-    _______, _______, _______, _______, _______, _______, KC.PGUP, _______, _______, _______,
-    KC.PSCR, KC.LGUI, _______, KC.HYPR, _______, KC.LEFT,   KC.UP, KC.DOWN, KC.RGHT, _______,
-    _______, _______, _______, _______, _______, KC.HOME, KC.PGDN,  KC.END, _______, _______,
+    _______, _______, _______, _______, _______, _______, _______, KC.PGUP, _______, _______,
+    KC.PSCR, KC.LGUI, _______, KC.HYPR, _______, KC.LEFT, KC.DOWN,   KC.UP, KC.RGHT, _______,
+    _______, _______, _______, _______, _______, _______, KC.HOME, KC.PGDN,  KC.END, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
     [  # 2 NUMPAD
-    _______, _______, _______, _______, _______, KC.SLSH,   KC.N7,   KC.N8,   KC.N9, KC.MINS,
-    _______, _______, _______, _______, _______, KC.ASTR,   KC.N4,   KC.N5,   KC.N6, KC.PLUS,
+    _______, _______, _______, _______, _______,   SLASH,   KC.N7,   KC.N8,   KC.N9,   MINUS,
+    _______, _______, _______, _______, _______,  ASTRSK,   KC.N4,   KC.N5,   KC.N6,    PLUS,
     _______, _______, _______, _______, _______,   KC.N0,   KC.N1,   KC.N2,   KC.N3,  KC.EQL,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
@@ -113,7 +113,7 @@ keyboard.keymap = [
     [  # 6 ALWAYS AVAILABLE [THUMB QUICK ACCESS LAYER]
     _______, _______,   COLON,  KC.ESC, _______, _______,   AGUDO,   CRASE, _______,  KC.DEL,
      KC.TAB, KC.PERC,   SLASH,  KC.ENT, _______, _______, KC.LGUI, _______, _______,   TILDE,
-    _______, _______, _______, _______, _______, _______, KC.RALT, KC.RCTL, _______, KC.RESET,
+    KC.CAPS, _______, _______, _______, _______, _______, KC.RALT, KC.RCTL, _______,KC.RESET,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
     ],
 ]
