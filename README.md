@@ -21,6 +21,7 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 - [ ] Add proper spaces for rubber feet.
 - [ ] Change Placement of TRRS footprints on PCB.
 - [ ] Move Thumb Keys to Rows 4 and 5.
+- [ ] Make board diodeless.
 - [ ] Release First Version.
 </details>
 
@@ -29,8 +30,6 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 
 - [x] Write US English Layout.
 - [x] Write EU Portuguese Layout.
-- [ ] Get OLED displays working.
-- [ ] Write OLED behaviour.
 </details>
 
 ## Images
