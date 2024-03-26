@@ -1526,6 +1526,10 @@
 		(uuid "6c6bf20e-ae92-4dbc-8146-3ffc3da86dd1")
 	)
 	(no_connect
+		(at 181.61 57.15)
+		(uuid "9471d2ee-fc01-4096-94cc-b5e53c698049")
+	)
+	(no_connect
 		(at 217.17 82.55)
 		(uuid "9ae34ca6-3ec2-4c02-babd-8c67fc812b66")
 	)
@@ -1536,6 +1540,10 @@
 	(no_connect
 		(at 217.17 87.63)
 		(uuid "c016f0f5-c63f-4ec4-a686-108ee492f2c4")
+	)
+	(no_connect
+		(at 181.61 54.61)
+		(uuid "c222e00b-bc4d-4a69-8731-40297563f82f")
 	)
 	(no_connect
 		(at 217.17 57.15)
@@ -1811,7 +1819,7 @@
 	)
 	(global_label "UART TX"
 		(shape input)
-		(at 217.17 102.87 0)
+		(at 217.17 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1821,7 +1829,7 @@
 		)
 		(uuid "0ead75b0-bc20-47a8-afed-8829db6fad2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.9566 102.87 0)
+			(at 227.9566 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2457,7 @@
 	)
 	(global_label "UART RX"
 		(shape input)
-		(at 217.17 100.33 0)
+		(at 217.17 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2459,7 +2467,7 @@
 		)
 		(uuid "9ec75f2d-3d73-48af-8cb5-def07e55bc8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.259 100.33 0)
+			(at 228.259 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
