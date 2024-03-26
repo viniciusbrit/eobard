@@ -16,12 +16,11 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 - [x] Generate Gerbers.
 - [x] Build Prototype.
 - [ ] Write Build Guide with images.
-- [ ] Change 5th Column Spacing to a more comfortable distance.
-- [ ] Make the left side's BOOTSEL button more accessible after soldering.
-- [ ] Add proper spaces for rubber feet.
-- [ ] Change Placement of TRRS footprints on PCB.
-- [ ] Move Thumb Keys to Rows 4 and 5.
-- [ ] Make board diodeless.
+- [x] Change 5th Column Spacing to a more comfortable distance.
+- [ ] Make the right side's BOOTSEL button more accessible after soldering.
+- [x] Change Placement of TRRS footprints on PCB.
+- [x] Move Thumb Keys to Rows 4 and 5.
+- [x] Make board diodeless.
 - [ ] Release First Version.
 </details>
 
