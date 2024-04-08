@@ -1,4 +1,4 @@
-w# Meet Eobard, a split 34 key ortholinear keyboard.
+# Meet Eobard, a split 34 key ortholinear keyboard.
 Current Hardware Revision: 0.2.8
 
 <img src="https://github.com/viniciusbrit/eobard/blob/54abefa3f9322f3dde9a3adc79b1acc81ec4291c/Images/Keyboard.jpg" width="75%">
@@ -18,6 +18,7 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 - [ ] Write Build Guide with images.
 - [x] Change 5th Column Spacing to a more comfortable distance.
 - [ ] Make the right side's BOOTSEL button more accessible after soldering.
+- [x] Get permission to use the BTW creature in silkscreen.
 - [x] Change Placement of TRRS footprints on PCB.
 - [x] Move Thumb Keys to Rows 4 and 5.
 - [x] Make board diodeless.
@@ -27,8 +28,8 @@ The columns are spaced out vertically so as to provide the most comfortable typi
 <details>
 <summary>Software Tasks</summary>
 
-- [x] Write US English Layout.
-- [x] Write EU Portuguese Layout.
+- [x] Write US English Base Layout.
+- [x] Write EU Portuguese Base Layout.
 </details>
 
 ## Images
